@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"os"
 	"path"
-	"slices"
+
+	"golang.org/x/exp/slices"
 
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
 )

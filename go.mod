@@ -2,7 +2,10 @@ module github.com/kjmkznr/tfmod-list
 
 go 1.22.1
 
-require github.com/hashicorp/terraform-config-inspect v0.0.0-20240509232506-4708120f8f30
+require (
+	github.com/hashicorp/terraform-config-inspect v0.0.0-20240509232506-4708120f8f30
+	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc
+)
 
 require (
 	github.com/agext/levenshtein v1.2.3 // indirect
