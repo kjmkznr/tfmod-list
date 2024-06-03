@@ -11,7 +11,7 @@ import (
 
 func main() {
 	var dir string
-	if len(os.Args) > 0 {
+	if len(os.Args) > 1 {
 		dir = os.Args[1]
 	} else {
 		fmt.Fprintf(os.Stderr, "usage: tfmod-list <directory>\n")
